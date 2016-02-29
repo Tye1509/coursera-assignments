@@ -2,30 +2,35 @@
 
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
     font-family: 'Change One', sans-serif;
+    background-color: #fff;
 }
 
 h1 {
     text-align: center;
-    font-size: 175%
+    font-size: 175%;
+    font-weight: 900;
+    margin: 10px;
 }
 
-.row {
+.container {
     border: none;
     width: 100%;
 }
 
-div {
+section {
     background-color: lightgrey;
     border: 1px solid black;
-    position: relative;
-    margin: 5px;
+    float: left;
+    padding: 10px;
 }
 
-.chicken, .beef, .sushi {
+h3 {
     text-align: center;
     border-left: 1px solid black;
     border-bottom: 1px solid black;
@@ -35,30 +40,36 @@ div {
 }
 
 .content {
-    padding: 25px 10px 10px 10px;
-    margin: 0;
-    width: 85%;
+	padding: 0px;
+}
+
+.container h3 {
+    float: right;
+	width: 125px;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+	padding: 10px;
+}
+
+.content > p {
+	clear: right;
+	padding: 15px;
+	font-size: 125%;
 }
 
 .chicken {
     background-color: pink;
     color: black;
-    position: absolute;
-    right: 0;
 }
 
 .beef {
     background-color: red;
     color: white;
-    position: absolute;
-    right: 0;
 }
 
 .sushi {
     background-color: #FFFACD;
     color: black;
-    position: absolute;
-    right: 0;
 }
 
 /**********************DESKTOP*************************/
@@ -79,13 +90,13 @@ div {
       width: 25%;
     }
     .col-lg-4 {
-      width: 32.80%;
+      width: 33.33%;
     }
     .col-lg-5 {
       width: 41.66%;
     }
     .col-lg-6 {
-      width: 45%;
+      width: 50%;
     }
     .col-lg-7 {
       width: 58.33%;
@@ -125,13 +136,13 @@ div {
       width: 25%;
     }
     .col-md-4 {
-      width: 32.80%;
+      width: 33.33%;
     }
     .col-md-5 {
       width: 41.66%;
     }
     .col-md-6 {
-      width: 45%;
+      width: 50%;
     }
     .col-md-7 {
       width: 58.33%;
