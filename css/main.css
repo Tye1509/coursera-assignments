@@ -14,10 +14,14 @@ h1 {
     font-size: 175%
 }
 
+.row {
+    border: none;
+    width: 100%;
+}
+
 div {
     background-color: lightgrey;
     border: 1px solid black;
-    width: 100%;
     position: relative;
     margin: 5px;
 }
