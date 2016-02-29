@@ -6,7 +6,6 @@
 
 body {
     font-family: 'Change One', sans-serif;
-    margin: 15px;
 }
 
 h1 {
@@ -80,7 +79,7 @@ div {
       width: 25%;
     }
     .col-lg-4 {
-      width: 32.8%;
+      width: 32.80%;
     }
     .col-lg-5 {
       width: 41.66%;
@@ -126,7 +125,7 @@ div {
       width: 25%;
     }
     .col-md-4 {
-      width: 32.8%;
+      width: 32.80%;
     }
     .col-md-5 {
       width: 41.66%;
