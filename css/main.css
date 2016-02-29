@@ -44,10 +44,9 @@ h3 {
 	padding: 10px;
 }
 
-.content > p {
+p {
 	clear: right;
-	padding: 15px;
-	font-size: 125%;
+    padding: 10px;
 }
 
 .chicken {
